@@ -7,12 +7,14 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     const passwardField = document.getElementById('user-passward');
     const passward = passwardField.value ;
     if(email === 'sontan@baap.com' && passward === 'secure'){
-        window.location.href = 'bank.html'
+        location.href = 'bank.html'
     }
     else{
-        alert ('invalid user')
+        alert ('Your information is invalid')
     }
 })
+
+
 
 
 
