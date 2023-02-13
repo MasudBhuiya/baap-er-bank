@@ -20,7 +20,7 @@
                 </div>
                 <div class="bg-yellow-500 p-8 rounded-xl">
                     <h1 class="text-3xl">Withdrow</h1>
-                    <h1 class="text-5xl">$00</h1>
+                    <h1 class="text-5xl">$<span id="withdrow-total">00</span></h1>
                 </div>
                 <div class="bg-violet-500 p-8 rounded-xl">
                     <h1 class="text-3xl">Balance</h1>
@@ -37,12 +37,14 @@
                 </div>
                 <div class="bg-sky-400 p-8 rounded-xl">
                     <h1 class="text-3xl mb-4">Please Withdrow</h1>
-                    <input id="user-text" class="w-9/12 block mb-2 px-3 text-black " type="text" placeholder="$ Amount you want to Deposit">
+                    <input id="withdrow-field" class="w-9/12 block mb-2 px-3 text-black " type="text" placeholder="$ Amount you want to Deposit">
                     <button id="btn-withdrow" class="bg-amber-600 px-8 py-2 text-white font-medium rounded-lg hover:bg-sky-600">Withdrow</button>
                 </div>
             </div>
         </section>
     </main>
     <script src="js/deposit.js"></script>
+    <script src="js/withdrow.js"></script>
+
 </body>
 </html>
